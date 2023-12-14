@@ -1,0 +1,98 @@
+.page-one {
+  display: flex;
+  flex: 1;
+  height: 600px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 250px;
+}
+
+.text-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 200px;
+}
+
+.paragraph-1 {
+  display: flex;
+}
+
+.blue-rectangle {
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+  padding-top: 21px;
+  padding-left: 15px;
+}
+
+.text-paragraph-1 {
+  font-family: Poppins, Arial;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.paragraph-2 {
+  display: flex;
+  font-family: Poppins, Arial;
+  font-size: 82px;
+  font-weight: 700;
+}
+
+.paragraph-3 {
+  display: flex;
+}
+
+.text-paragraph-3 {
+  width:530px;
+  font-family: Poppins, Arial;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.course-button-page-one {
+  display: flex;
+  margin-left: -3px;
+}
+
+.lihat-course-kami-button {
+  font-family: Poppins, Arial;
+  text-align: center;
+  height: 60px;
+  width: 280px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(65,105,225);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.25) inset;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.lihat-course-kami-button:hover {
+  box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.25) inset;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+  transition: all .3s ease .0s;
+}
+
+.arrow {
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.animation-section-one {
+  display: flex;
+  flex: 1;
+  padding-right: 150px;
+}
+
+.animation-section-page-one {
+  width: 100%;
+  align-items: center;
+  margin-top: 50px;
+}

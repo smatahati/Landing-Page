@@ -1,0 +1,43 @@
+.page-two {
+  display: flex;
+  flex: 1;
+  height: 600px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 340px;
+}
+
+.animation-section-two {
+  display: flex;
+  flex: 1;
+  padding-left: 100px;
+}
+
+.animation-page-two {
+  width: 100%;
+}
+
+.text-section-page-two {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 400px;
+  margin-top: 75px;
+  margin-left: 50px;
+  padding-right: 200px;
+}
+
+.title-page-two {
+  font-family: Poppins, Arial;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.description-page-two {
+  font-family: Poppins, Arial;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 15px;
+  width: 700px;
+}

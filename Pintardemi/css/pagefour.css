@@ -1,0 +1,121 @@
+.page-four {
+  display: flex;
+  flex: 1;
+  height: 780px;
+  flex-direction: column;
+  margin-bottom: 250px;
+  align-items:center;
+  margin-bottom: 250px;
+}
+
+.title-page-four {
+  display: flex;
+  font-family: Poppins,Arial;
+  font-size: 45px;
+  font-weight: 700;
+  padding: 8px 8px;
+}
+
+.course-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.course-tabs input[type="radio"] {
+  display: none;
+}
+
+.course-tabs label {
+  background-color: white;
+  padding: 15px 30px;
+  font-family: Poppins, Arial;
+  font-size: 25px;
+  font-weight: 500;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(189, 189, 189);
+  border-bottom-width: 3px;
+}
+
+.tabComVis {
+  margin-left: 329px;
+}
+
+.course-tabs .tab {
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 219px;
+  width:750px;
+  height: 530px;
+  order: 1;
+  display: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(189, 189, 189);
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.25) inset;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.course-tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+.course-tabs input[type="radio"]:checked + label {
+  border-bottom-style: solid;
+  border-bottom-color: rgb(65,105,225);
+  border-bottom-width: 3px;
+  color: rgb(65,105,225);
+  font-weight: 600;
+}
+
+.course-tabs .h2 {
+  font-family: Poppins,Arial;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.course-tabs img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.course-tabs .desc-course {
+  font-family: Poppins,Arial;
+  font-size: 18px;
+  width: 720px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-left: 13px;
+}
+
+.course-tabs .btn-detail-course {
+  margin-left: 230px;
+  font-family: Poppins, Arial;
+  text-align: center;
+  height: 60px;
+  width: 280px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(65,105,225);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.25) inset;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.course-tabs .btn-detail-course:hover {
+  box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.25) inset;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+  transition: all .3s ease .0s;
+}
